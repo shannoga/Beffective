@@ -1,0 +1,133 @@
+/* @override http://shanoga-temp.com/TamarMesser/wp-content/themes/TamarMesser/sections/shannoga-navigation/style.css?ver=1.2.0 */
+
+
+
+/**
+ * PageLines Base *Navigation* Section
+ *
+ * Use this section as a starter for section development. 
+ * It contains some inline documentation to help you through the process and APIs
+ * 
+ * This file, style.css, will be auto-loaded by the section. 
+ * 
+ * For more information see developer documentation on PageLines.com
+ *
+ * @package PageLines
+ */
+
+
+/*
+	Custom CSS Tips
+	1. Specificity 
+		- If your custom rules aren't taking effect, try adding increased specificity. 
+		- To do this, you can add '.custom' or 'body' out in front of any other rule. 
+		- If it still doesn't work, use an id (e.g. #page) as it has more specificity.
+
+		
+*/
+
+/* @ Pullquote Section */
+
+
+div img {
+	margin-top: expression(( 150 - this.height ) / 2); 
+	}
+
+html>body div img {    /*hidden from IE 5-6 */
+	margin-top: 0; /* to clean up, just in case IE later supports valign! */
+	vertical-align: middle;
+	}
+	
+#left-navigation{
+	height: 610px;
+	width: 230px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+	float: left;
+	margin-left: 40px;
+	position: relative;
+	padding-top: 40px;
+}
+#logo{
+	height:160px;
+	width: 230px;
+	float: left;
+	clear: both;
+	text-align: center;
+	
+}
+
+#logo-caption{
+	width: 230px;
+	text-align: center;
+	height: 20px;
+	clear: both;
+	font-size: 10px;
+	line-height: 10px;
+}
+#logo-caption .sub-label{
+	letter-spacing: 1pt;
+}
+#logo-bottom-line{
+	height:1px;
+	width: 170px;
+	margin-right: auto;
+	margin-left: auto;	
+	margin-top: 35px;
+	margin-bottom: 10px;
+	background-color: black;
+	
+}
+
+#navigation-items{
+	width:190px;
+	height: auto;
+	clear: both;
+	padding:0px 10px 0px 30px;
+}
+#navigation-items ul{
+	list-style: none;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+#navigation-items ul ul{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+}
+#navigation-items ul ul a{
+	color: gray !important;
+}
+
+li.menu-item{
+	margin-bottom: 7px;
+}
+
+div.art-work-image {
+	height: inherit;
+}
+
+.sub-menu li{
+	margin-bottom: 2px !important;
+	line-height: 14px;
+}
+
+.current-menu-item{
+	text-decoration: underline;
+}
+#navigation-items a{
+	text-decoration: none;
+	text-align: left;
+	color: black;
+	font-size: 12px;
+}
+#copy{
+	height: 14px;
+	width:190px;
+	padding:0px 10px 0px 30px;
+	position: relative;
+	position:absolute; bottom:15px;
+	text-align: left;
+	font-size: 12px;
+}
+
+
